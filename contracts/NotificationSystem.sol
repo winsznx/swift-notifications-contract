@@ -272,8 +272,6 @@ contract NotificationSystem is ReentrancyGuard, Ownable {
 
     /**
      * @dev Get notification details
-     * @param _notificationId ID of the notification
-     * @return Notification details
      */
     function getNotification(uint256 _notificationId) 
         external 
@@ -328,7 +326,6 @@ contract NotificationSystem is ReentrancyGuard, Ownable {
     /**
      * @dev Get user's notification preferences
      * @param _user Address of the user
-     * @return User preferences
      */
     function getUserPreferences(address _user) 
         external 
